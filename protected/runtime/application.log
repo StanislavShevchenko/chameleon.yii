@@ -1,0 +1,2331 @@
+2017/06/14 21:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/index".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=site/index
+HTTP_REFERER=http://chameleon.yii/index.php?r=site/login
+---
+2017/06/14 21:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 12:55:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 13:07:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 13:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 13:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 18:08:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 18:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2017/06/15 18:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user/login".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 18:18:24 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(7): CController->render('login')
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 18:39:39 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.csrfParam" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\views\user\login.php(6): CComponent->__get('csrfParam')
+#1 D:\LocalHost\chameleon.yii\framework\web\CBaseController.php(126): require('D:\\LocalHost\\ch...')
+#2 D:\LocalHost\chameleon.yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\LocalHost\\ch...', NULL, true)
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(872): CBaseController->renderFile('D:\\LocalHost\\ch...', NULL, true)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#5 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(7): CController->render('login')
+#6 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:14:19 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.authManager" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\base\CModule.php(105): CComponent->__get('authManager')
+#1 D:\LocalHost\chameleon.yii\protected\commands\AccessCommand.php(5): CModule->__get('authManager')
+#2 [internal function]: AccessCommand->actionAddRules()
+#3 D:\LocalHost\chameleon.yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(AccessCommand), Array)
+#4 D:\LocalHost\chameleon.yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#5 D:\LocalHost\chameleon.yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#6 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CConsoleApplication->processRequest()
+#7 D:\LocalHost\chameleon.yii\framework\yiic.php(33): CApplication->run()
+#8 D:\LocalHost\chameleon.yii\protected\yiic.php(7): require_once('D:\\LocalHost\\ch...')
+#9 {main}
+---
+2017/06/15 19:24:08 [error] [exception.CException] exception 'CException' with message 'Property "User.user_role_is" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(162): CComponent->__set('user_role_is', 1)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(10): CActiveRecord->__set('user_role_is', 1)
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2017/06/15 19:29:57 [error] [php] include(UserRole.php): failed to open stream: No such file or directory (D:\LocalHost\chameleon.yii\framework\YiiBase.php:432)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(397): spl_autoload_call()
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(182): model()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(231): CActiveFinder->getModel()
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct()
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(282): User->getActiveFinder()
+#6 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(143): User->getRelated()
+#7 D:\LocalHost\chameleon.yii\protected\components\UserIdentity.php(23): User->__get()
+#8 D:\LocalHost\chameleon.yii\protected\models\LoginForm.php(41): UserIdentity->authenticate()
+#9 D:\LocalHost\chameleon.yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#10 D:\LocalHost\chameleon.yii\framework\validators\CValidator.php(201): CInlineValidator->validateAttribute()
+#11 D:\LocalHost\chameleon.yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#12 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(13): LoginForm->validate()
+#13 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): UserController->runAction()
+#16 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): UserController->run()
+#18 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/login
+in D:\LocalHost\chameleon.yii\protected\components\UserIdentity.php (23)
+in D:\LocalHost\chameleon.yii\protected\models\LoginForm.php (41)
+in D:\LocalHost\chameleon.yii\protected\controllers\UserController.php (13)
+2017/06/15 19:32:59 [error] [exception.CException] exception 'CException' with message 'CWebUser.allowAutoLogin must be set true in order to use cookie-based authentication.' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:242
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\models\LoginForm.php(59): CWebUser->login(Object(UserIdentity), 3600)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(13): LoginForm->login()
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/login
+---
+2017/06/15 19:33:28 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.username" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php(146): CComponent->__get('username')
+#1 D:\LocalHost\chameleon.yii\protected\views\layouts\main.php(28): CWebUser->__get('username')
+#2 D:\LocalHost\chameleon.yii\framework\web\CBaseController.php(126): require('D:\\LocalHost\\ch...')
+#3 D:\LocalHost\chameleon.yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\LocalHost\\ch...', Array, true)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(787): CBaseController->renderFile('D:\\LocalHost\\ch...', Array, true)
+#5 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(7): CController->render('index')
+#6 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#12 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/
+---
+2017/06/15 19:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "books".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:43:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "books".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/logout
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "books".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:48:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/logout
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:49:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "logout".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('logout')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/logout
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 19:55:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/login
+---
+2017/06/15 20:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/login".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/site/login
+---
+2017/06/15 20:38:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#9 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 20:40:18 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#9 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 20:42:32 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.goust" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('goust', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 20:42:33 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.goust" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('goust', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 20:42:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#9 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/15 20:44:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#9 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/16 13:15:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "books/index".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/index')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/books
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/16 13:28:49 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(24): CController->render('login')
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/16 13:29:40 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(24): CController->render('login')
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+---
+2017/06/16 13:29:57 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(24): CController->render('login')
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+---
+2017/06/16 13:30:01 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "login".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('login', NULL, true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(24): CController->render('login')
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/16 14:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff2".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff2".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.woff2
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:01:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://chameleon.yii/css/bootstrap.min.css
+---
+2017/06/16 14:25:16 [error] [php] Invalid argument supplied for foreach() (D:\LocalHost\chameleon.yii\protected\views\books\edit.php:24)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(872): BooksController->renderFile()
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): BooksController->renderPartial()
+#2 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(28): BooksController->render()
+#3 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): BooksController->runAction()
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): BooksController->filterAccessControl()
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): BooksController->runActionWithFilters()
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): BooksController->run()
+#13 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/book/add/
+in D:\LocalHost\chameleon.yii\protected\views\books\edit.php (24)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:25:54 [error] [php] Invalid argument supplied for foreach() (D:\LocalHost\chameleon.yii\protected\views\books\edit.php:24)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(872): BooksController->renderFile()
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): BooksController->renderPartial()
+#2 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(28): BooksController->render()
+#3 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): BooksController->runAction()
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): BooksController->filterAccessControl()
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): BooksController->runActionWithFilters()
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): BooksController->run()
+#13 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/book/add/
+in D:\LocalHost\chameleon.yii\protected\views\books\edit.php (24)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:25:55 [error] [php] Invalid argument supplied for foreach() (D:\LocalHost\chameleon.yii\protected\views\books\edit.php:24)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(872): BooksController->renderFile()
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): BooksController->renderPartial()
+#2 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(28): BooksController->render()
+#3 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): BooksController->runAction()
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): BooksController->filterAccessControl()
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): BooksController->runActionWithFilters()
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): BooksController->run()
+#13 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/book/add/
+in D:\LocalHost\chameleon.yii\protected\views\books\edit.php (24)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:49:22 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:49:40 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:49:40 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (39)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:50:37 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:50:37 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (39)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:51:50 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:51:50 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (39)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:53:08 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:53:08 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:54:38 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:54:38 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:55:21 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:55:21 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:55:52 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:55:52 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:56:15 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:56:15 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:56:29 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:56:29 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:57:32 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:57:34 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:57:42 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:57:57 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:59:18 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:59:18 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (32)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:59:48 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 14:59:48 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:22 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:22 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:22 [warning] [application] Failed to set unsafe attribute "d" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:44 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:44 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:00:44 [warning] [application] Failed to set unsafe attribute "d" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:01:29 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:01:29 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:08 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:08 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:08 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:10 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:10 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:10 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:29 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:29 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:02:29 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:03:23 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:03:23 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:03:23 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (32)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:04:27 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:04:27 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:04:56 [warning] [application] Failed to set unsafe attribute "d" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:04:56 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:05:17 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:05:17 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:07:20 [warning] [application] Failed to set unsafe attribute "date" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:07:20 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:07:51 [warning] [application] Failed to set unsafe attribute "date_p" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:07:51 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:08:10 [warning] [application] Failed to set unsafe attribute "date_p" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:08:10 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:09:28 [warning] [application] Failed to set unsafe attribute "date_p" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:09:28 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (40)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:15:26 [warning] [application] Failed to set unsafe attribute "date_p" of "BookForm".
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (28)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:15:26 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (42)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:15:53 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (42)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/16 15:17:34 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:00:11 [error] [exception.CException] exception 'CException' with message 'BookForm and its behaviors do not have a method or closure named "beforeSave".' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\models\BookForm.php(55): CComponent->__call('beforeSave', Array)
+#1 D:\LocalHost\chameleon.yii\protected\models\BookForm.php(55): CFormModel->beforeSave()
+#2 D:\LocalHost\chameleon.yii\protected\models\BookForm.php(42): BookForm->beforeSave()
+#3 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(29): BookForm->save()
+#4 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#12 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#14 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/edit')
+#15 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/book/add/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 09:00:28 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:00:28 [error] [exception.CException] exception 'CException' with message 'Property "BookForm.image" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(30): CComponent->__get('image')
+#1 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/edit')
+#12 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/book/add/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 09:00:56 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:01:59 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (29)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:02:51 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:02:51 [error] [exception.CException] exception 'CException' with message 'Property "BookForm.image" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php(31): CComponent->__get('image')
+#1 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#2 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('books/edit')
+#12 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/book/add/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 09:03:04 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:04:45 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:05:27 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:05:53 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (31)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:13:43 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:19:13 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:19:21 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:20:24 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:20:24 [error] [php] move_uploaded_file(/upload/2.jpg): failed to open stream: No such file or directory (D:\LocalHost\chameleon.yii\framework\web\CUploadedFile.php:201)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksController->actionEdit()
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): BooksController->runAction()
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): BooksController->filterAccessControl()
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): BooksController->runActionWithFilters()
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): BooksController->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/book/add/
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (33)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:31:44 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:32:39 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (44)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:37:46 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (49)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:38:23 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (49)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 09:39:55 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (51)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (30)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 12:43:34 [error] [exception.CDbException] exception 'CDbException' with message 'The relation "Authors" in active record class "Books" is specified with an invalid foreign key "author_id". There is no such column in the table "authors".' in D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php:1102
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(1073): CJoinElement->joinOneMany(Object(CJoinElement), Array, Object(CJoinElement), Object(CJoinElement))
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(1318): CJoinElement->getJoinCondition()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(796): CJoinQuery->join(Object(CJoinElement))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(439): CJoinElement->buildQuery(Object(CJoinQuery))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#6 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#7 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(24): CActiveRecord->findAll()
+#8 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#16 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#18 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#19 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 12:46:26 [error] [exception.CDbException] exception 'CDbException' with message 'Relation "Authors" is not defined in active record class "Books".' in D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php:227
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(300): CActiveFinder->buildJoinTree(Object(CJoinElement), 'Authors')
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree(Object(CJoinElement), Array)
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(915): CActiveFinder->__construct(Object(Books), Array)
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1363): CActiveRecord->getActiveFinder(Array)
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#5 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(24): CActiveRecord->findAll()
+#6 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#17 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:02:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/06/17 13:02:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:12:53 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id DESC.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:12:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id DESC' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:13:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id DESC.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:13:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id DESC' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->find(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:14:22 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id ASC.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:14:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id ASC' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->find(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:17:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id desc.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:17:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id desc' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->find(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:17:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id desc.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:17:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id desc' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), false)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1464): CActiveRecord->query(Object(CDbCriteria))
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->find(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:19:40 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id asc.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (27)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 13:19:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in order clause is ambiguous. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) ORDER BY id asc' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(27): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/
+HTTP_REFERER=http://chameleon.yii/book/add/
+---
+2017/06/17 13:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:42:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:45:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:47:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 13:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/1/
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit/18/$book['preview']".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit/18/$b...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/18/$book['preview']
+HTTP_REFERER=http://chameleon.yii/book/edit/18/
+---
+2017/06/17 14:14:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit/18/$book['preview']".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit/18/$b...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/18/$book['preview']
+---
+2017/06/17 14:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit/18/upload/1497681595_12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit/18/up...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/18/upload/1497681595_12.jpg
+HTTP_REFERER=http://chameleon.yii/book/edit/18/
+---
+2017/06/17 14:14:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit/18/upload/1497681595_12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit/18/up...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/18/upload/1497681595_12.jpg
+HTTP_REFERER=http://chameleon.yii/book/edit/18/
+---
+2017/06/17 14:14:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "book/edit/18/upload/1497681595_12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('book/edit/18/up...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/book/edit/18/upload/1497681595_12.jpg
+---
+2017/06/17 14:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:14:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:14:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+---
+2017/06/17 14:14:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+---
+2017/06/17 14:15:53 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (51)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (41)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 14:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:30 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 14:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:29:57 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 14:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:29:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:37:00 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/17 14:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:51:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:52:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:53:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "2.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('2.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/2.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "12.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('12.jpg')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/12.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 14:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "[gotowall.com]20111213_043229_2844.jpg".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('[gotowall.com]2...')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/[gotowall.com]20111213_043229_2844.jpg
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:13:36 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.delete" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('delete', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/delet...')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/book/ajax/delete
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:14:00 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.delete" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('delete', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/delet...')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/book/ajax/delete
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:14:53 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.delete" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('delete', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('booksAjax/delet...')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/book/ajax/delete
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:19:14 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.delete" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('delete', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('booksAjax/delet...')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/book/ajax/delete
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:19:33 [error] [exception.CException] exception 'CException' with message 'Property "CAccessRule.delete" is not defined.' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:173
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(115): CComponent->__set('delete', Array)
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(1147): CAccessControlFilter->setRules(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/delet...')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/book/ajax/delete
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:53:00 [error] [exception.CException] exception 'CException' with message 'BooksAjaxController cannot find the requested view "view".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('view', Object(Books), true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\BooksAjaxController.php(47): CController->render('view', Object(Books))
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksAjaxController->actionView()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#13 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:53:02 [error] [exception.CException] exception 'CException' with message 'BooksAjaxController cannot find the requested view "view".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('view', Object(Books), true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\BooksAjaxController.php(47): CController->render('view', Object(Books))
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksAjaxController->actionView()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#13 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/17 21:53:09 [error] [exception.CException] exception 'CException' with message 'BooksAjaxController cannot find the requested view "view".' in D:\LocalHost\chameleon.yii\framework\web\CController.php:881
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): CController->renderPartial('view', Object(Books), true)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\BooksAjaxController.php(47): CController->render('view', Object(Books))
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): BooksAjaxController->actionView()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#13 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/18 09:54:54 [error] [php] Invalid argument supplied for foreach() (D:\LocalHost\chameleon.yii\protected\views\main\index.php:66)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(872): MainController->renderFile()
+#1 D:\LocalHost\chameleon.yii\framework\web\CController.php(785): MainController->renderPartial()
+#2 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(49): MainController->render()
+#3 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): MainController->runAction()
+#6 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): MainController->filterAccessControl()
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): MainController->runActionWithFilters()
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): MainController->run()
+#13 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/?t_q=name&q=&data_s=05.06.2017&data_e=09.06.2017
+in D:\LocalHost\chameleon.yii\protected\views\main\index.php (66)
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (49)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 10:00:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'тестовая123') ORDER BY t.id asc' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) WHERE (t.name like %:q) ORDER BY t.id asc.
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (43)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 10:00:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'тестовая123') ORDER BY t.id asc' at line 1. The SQL statement executed was: SELECT `t`.`id` AS `t0_c0`, `t`.`name` AS `t0_c1`, `t`.`date_create` AS `t0_c2`, `t`.`date_update` AS `t0_c3`, `t`.`preview` AS `t0_c4`, `t`.`date` AS `t0_c5`, `t`.`author_id` AS `t0_c6`, `authors`.`id` AS `t1_c0`, `authors`.`firstname` AS `t1_c1`, `authors`.`lastname` AS `t1_c2` FROM `books` `t`  LEFT OUTER JOIN `authors` `authors` ON (`t`.`author_id`=`authors`.`id`) WHERE (t.name like %:q) ORDER BY t.id asc' in D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(809): CDbCommand->queryAll()
+#2 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(441): CJoinElement->runQuery(Object(CJoinQuery))
+#3 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveFinder.php(68): CJoinElement->find(Object(CDbCriteria))
+#4 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1364): CActiveFinder->query(Object(CDbCriteria), true)
+#5 D:\LocalHost\chameleon.yii\framework\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#6 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(43): CActiveRecord->findAll(Object(CDbCriteria))
+#7 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#8 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#12 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#15 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#18 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/?t_q=name&q=%D1%82%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B0%D1%8F123&data_s=18.06.2017&data_e=18.06.2017
+HTTP_REFERER=http://chameleon.yii/?t_q=name&q=&data_s=18.06.2017&data_e=18.06.2017
+---
+2017/06/18 10:10:13 [error] [exception.CException] exception 'CException' with message 'CDbCriteria and its behaviors do not have a method or closure named "with".' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(35): CComponent->__call('with', Array)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\MainController.php(35): CDbCriteria->with(Array)
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): MainController->actionIndex()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('index')
+#12 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('main/index')
+#13 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/?t_q=authors&q=%D0%98%D0%BB%D1%8C%D1%8F&data_s=18.06.2017&data_e=18.06.2017
+HTTP_REFERER=http://chameleon.yii/?t_q=name&q=&data_s=18.06.2017&data_e=18.06.2017
+---
+2017/06/18 10:31:30 [error] [php] explode() expects parameter 2 to be string, array given (D:\LocalHost\chameleon.yii\protected\controllers\MainController.php:58)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): MainController->runAction()
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): MainController->filterAccessControl()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): MainController->runActionWithFilters()
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): MainController->run()
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (58)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 11:34:57 [error] [php] in_array() expects parameter 2 to be array, string given (D:\LocalHost\chameleon.yii\protected\controllers\MainController.php:67)
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(134): MainController->runAction()
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): MainController->filterAccessControl()
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): MainController->runActionWithFilters()
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): MainController->run()
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/?order=id&sort=asc&t_q=name&q=&date_s=&date_e=
+in D:\LocalHost\chameleon.yii\protected\controllers\MainController.php (67)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 15:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/06/18 15:31:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2017/06/18 15:33:13 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 15:45:35 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 15:51:05 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 15:51:42 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:08:38 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (35)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:11:21 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:11:36 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:12:45 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (56)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:19:06 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (58)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:25:18 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:25:41 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:25:46 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:26:21 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:26:44 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (58)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:27:14 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (59)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:28:06 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (59)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:28:40 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (59)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:29:05 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (59)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:34:50 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (59)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:34:59 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:35:12 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:35:27 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (34)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:35:51 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (33)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:36:33 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (33)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/18 16:41:27 [warning] [application] Failed to set unsafe attribute "id" of "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (33)
+in D:\LocalHost\chameleon.yii\index.php (13)
+2017/06/19 09:25:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 09:25:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 09:25:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 09:25:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 12:14:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 12:14:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Login Required' in D:\LocalHost\chameleon.yii\framework\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(181): CWebUser->loginRequired()
+#1 D:\LocalHost\chameleon.yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#2 D:\LocalHost\chameleon.yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\LocalHost\chameleon.yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\LocalHost\chameleon.yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\LocalHost\chameleon.yii\framework\web\CController.php(291): CFilterChain->run()
+#7 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('view')
+#9 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('BooksAjax/view')
+#10 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/book/ajax/view
+HTTP_REFERER=http://chameleon.yii/
+---
+2017/06/19 12:58:09 [error] [exception.CException] exception 'CException' with message 'В классе LoginForm и его поведениях не найден метод или замыкание с именем "errors".' in D:\LocalHost\chameleon.yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(18): CComponent->__call('errors', Array)
+#1 D:\LocalHost\chameleon.yii\protected\controllers\UserController.php(18): LoginForm->errors()
+#2 D:\LocalHost\chameleon.yii\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 D:\LocalHost\chameleon.yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\LocalHost\chameleon.yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\LocalHost\chameleon.yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(282): CController->run('login')
+#7 D:\LocalHost\chameleon.yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#8 D:\LocalHost\chameleon.yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\LocalHost\chameleon.yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/login
+HTTP_REFERER=http://chameleon.yii/login
+---
+2017/06/19 13:17:20 [warning] [application] Не удалось присвоить небезопасный атрибут "id" класса "Books".
+in D:\LocalHost\chameleon.yii\protected\models\BookForm.php (57)
+in D:\LocalHost\chameleon.yii\protected\controllers\BooksController.php (33)
+in D:\LocalHost\chameleon.yii\index.php (13)
